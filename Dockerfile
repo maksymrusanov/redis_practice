@@ -1,6 +1,6 @@
 FROM python:slim-bookworm
-COPY requirements.txt /app/
-WORKDIR /app
+COPY requirements.txt /
+WORKDIR /
 RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 EXPOSE 8000
