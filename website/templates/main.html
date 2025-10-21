@@ -1,0 +1,9 @@
+{%extends 'base.html'%}
+{%block title%}main page{%endblock%}
+{%block content%}
+{%if list%}
+{%for i in list%}
+<p style="text-align: center;">{{i}}</p>
+{%endfor%}
+{%endif%}
+{%endblock%}
