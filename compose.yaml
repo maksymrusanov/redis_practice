@@ -26,5 +26,5 @@ services:
       - ${DB_HOST_PORT}:${DB_PORT}
     
   
-  volumes: 
+volumes: 
     db_data:
